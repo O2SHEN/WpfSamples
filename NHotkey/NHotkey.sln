@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.852
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "NHotkey", "NHotkey\NHotkey.shproj", "{53F4ED98-9208-423F-8CF4-A65DB3184D55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHotkey.Wpf", "NHotkey.Wpf\NHotkey.Wpf.csproj", "{0D513832-2244-4368-AE93-CB262549C359}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHotkey.WindowsForms", "NHotkey.WindowsForms\NHotkey.WindowsForms.csproj", "{19A7E111-CC37-409D-8F5D-637E83806949}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demos", "Demos", "{82CBDAD7-DF2B-4B54-937D-B45B05C32941}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHotkey.WindowsForms.Demo", "NHotkey.WindowsForms.Demo\NHotkey.WindowsForms.Demo.csproj", "{7B1B6A34-5B35-457B-8E31-BDC215121D0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHotkey.Wpf.Demo", "NHotkey.Wpf.Demo\NHotkey.Wpf.Demo.csproj", "{B358F1AD-FFB0-4CCD-87F4-C5D5822C7F1F}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		NHotkey\NHotkey.projitems*{0d513832-2244-4368-ae93-cb262549c359}*SharedItemsImports = 4
+		NHotkey\NHotkey.projitems*{19a7e111-cc37-409d-8f5d-637e83806949}*SharedItemsImports = 4
+		NHotkey\NHotkey.projitems*{53f4ed98-9208-423f-8cf4-a65db3184d55}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D513832-2244-4368-AE93-CB262549C359}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D513832-2244-4368-AE93-CB262549C359}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D513832-2244-4368-AE93-CB262549C359}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D513832-2244-4368-AE93-CB262549C359}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19A7E111-CC37-409D-8F5D-637E83806949}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19A7E111-CC37-409D-8F5D-637E83806949}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19A7E111-CC37-409D-8F5D-637E83806949}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19A7E111-CC37-409D-8F5D-637E83806949}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B1B6A34-5B35-457B-8E31-BDC215121D0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B1B6A34-5B35-457B-8E31-BDC215121D0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B1B6A34-5B35-457B-8E31-BDC215121D0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B1B6A34-5B35-457B-8E31-BDC215121D0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B358F1AD-FFB0-4CCD-87F4-C5D5822C7F1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B358F1AD-FFB0-4CCD-87F4-C5D5822C7F1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B358F1AD-FFB0-4CCD-87F4-C5D5822C7F1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B358F1AD-FFB0-4CCD-87F4-C5D5822C7F1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7B1B6A34-5B35-457B-8E31-BDC215121D0B} = {82CBDAD7-DF2B-4B54-937D-B45B05C32941}
+		{B358F1AD-FFB0-4CCD-87F4-C5D5822C7F1F} = {82CBDAD7-DF2B-4B54-937D-B45B05C32941}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {987C3FAC-F574-412D-8FC7-DF0ABF1F0732}
+	EndGlobalSection
+EndGlobal
